@@ -36,12 +36,12 @@
 			"response": []
 		},
 		{
-			"name": "OneComment",
+			"name": "OneComments",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://gorest.co.in/public/v2/comments/1760",
+					"raw": "https://gorest.co.in/public/v2/comments/58242",
 					"protocol": "https",
 					"host": [
 						"gorest",
@@ -52,20 +52,20 @@
 						"public",
 						"v2",
 						"comments",
-						"1760"
+						"58242"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "CreateComment",
+			"name": "CreateComments",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"post_id\": 1666,\r\n    \"name\": \"Petrova Olga\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"civis bonus\",\r\n    \"post\": 12\r\n}",
+					"raw": "{\r\n    \"post_id\": 71979,\r\n    \"name\": \"Petrova Olga\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"civis bonus\",\r\n    \"post\": 12\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -90,13 +90,13 @@
 			"response": []
 		},
 		{
-			"name": "ChargeComment",
+			"name": "ChangeComments",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"post_id\": 1666,\r\n    \"name\": \"Petrov Vasilii\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"Hoc anni tempore sol fere non calefacit ut aestate frigidior It pluit saepius Dies breviores Folia cadunt ab arboribus Multa volucres patrias relinquunt Et avolant calentes quia minus est cibus\"\r\n}",
+					"raw": "{\r\n    \"post_id\": 71979,\r\n    \"name\": \"Petrov Vasilii\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"Hoc hoc\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -104,7 +104,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://gorest.co.in/public/v2/comments/17",
+					"raw": "https://gorest.co.in/public/v2/comments/58242",
 					"protocol": "https",
 					"host": [
 						"gorest",
@@ -115,19 +115,19 @@
 						"public",
 						"v2",
 						"comments",
-						"17"
+						"58242"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "DeleteComment",
+			"name": "DeleteComments",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "https://gorest.co.in/public/v2/comments/1759",
+					"raw": "https://gorest.co.in/public/v2/comments/58242",
 					"protocol": "https",
 					"host": [
 						"gorest",
@@ -138,19 +138,19 @@
 						"public",
 						"v2",
 						"comments",
-						"1759"
+						"58242"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "FilterCommentByPost",
+			"name": "FilterCommentsByPost",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://gorest.co.in/public/v2/posts/1666/comments",
+					"raw": "https://gorest.co.in/public/v2/posts/71979/comments",
 					"protocol": "https",
 					"host": [
 						"gorest",
@@ -161,7 +161,7 @@
 						"public",
 						"v2",
 						"posts",
-						"1666",
+						"71979",
 						"comments"
 					]
 				}
@@ -169,13 +169,13 @@
 			"response": []
 		},
 		{
-			"name": "CreateCommentByPost",
+			"name": "CreateCommentsByPost",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Lanskya Maria\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"cum spaceships vagantur maria\",\r\n    \"post\": 12\r\n}",
+					"raw": "{\r\n    \"name\": \"Lanskya Maria\",\r\n    \"email\": \"esq_asan_bhargavi@nienow.biz\",\r\n    \"body\": \"cum spaceships vagantur mariaaaaa\",\r\n    \"post\": 12\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -183,7 +183,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://gorest.co.in/public/v2/posts/1666/comments/",
+					"raw": "https://gorest.co.in/public/v2/posts/71979/comments/",
 					"protocol": "https",
 					"host": [
 						"gorest",
@@ -194,7 +194,7 @@
 						"public",
 						"v2",
 						"posts",
-						"1666",
+						"71979",
 						"comments",
 						""
 					]
