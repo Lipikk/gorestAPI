@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "43d31507-7ee6-43bb-aea6-8e35bd099d72",
+		"name": "Posts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24081392"
+	},
+	"item": [
+		{
+			"name": "posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/posts/2319",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"posts",
+						"2319"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
