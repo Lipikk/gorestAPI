@@ -1,18 +1,1 @@
-{
-	"info": {
-		"_postman_id": "98b22e2a-7818-41c0-ae78-44972b07eb4f",
-		"name": "To dos",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24081392"
-	},
-	"item": [
-		{
-			"name": "todos",
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		}
-	]
-}
+
